@@ -1,0 +1,13 @@
+---
+description: Generic factory process — always applied
+alwaysApply: true
+---
+
+# Agent process
+
+Read `PROCESS.md` before implementing a Work Order.
+
+- Branch `wo/NNN-slug`; first commit is `docs/factory/runs/WO-NNN.json`
+- Verify with `make ci-local` and `make run` (http://localhost:8765)
+- P0/P1: do not auto-merge; P2: auto-merge after CI
+- Never `git add -A`; never skip the human UI checkpoint for P0–P2
