@@ -1,0 +1,9 @@
+# Product profile for the AI Factory engine (agentic-factory).
+# See docs/adopters/CONTRACT.md and docs/adopters/INDEPENDENCE.md (WO-I1).
+
+name: demo-app
+verify: "make ci-local"
+ui_url: "http://localhost:8765"
+ui_verify_hint: "Open the demo page; confirm the heading matches the WO."
+compose_project: ""
+patterns_file: "docs/factory/patterns.md"
