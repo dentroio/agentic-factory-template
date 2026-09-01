@@ -1,5 +1,5 @@
 # Product profile for the AI Factory engine (agentic-factory).
-# See docs/adopters/CONTRACT.md and docs/adopters/INDEPENDENCE.md (WO-I1).
+# Docs: https://github.com/dentroio/agentic-factory/blob/main/docs/wiki/Product-Profile.md
 
 name: demo-app
 verify: "make ci-local"
