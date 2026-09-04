@@ -3,6 +3,7 @@
 **Status:** Open
 **Priority:** P3
 **Effort:** S
+**Services:** docs
 
 ## Problem
 
@@ -25,6 +26,7 @@ Changing the demo app.
 
 - **Branch:** `wo/002-readme-verify`
 - **Risk tier:** P3
+- **Services:** docs
 - **PR title:** `docs: WO-002 — document verify commands`
 - **Pre-PR gate:** `make ci-local`
 - **Depends on:** none

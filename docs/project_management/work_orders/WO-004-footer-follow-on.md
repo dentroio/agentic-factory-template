@@ -3,6 +3,7 @@
 **Status:** Open
 **Priority:** P2
 **Effort:** S
+**Services:** demo
 
 ## Problem
 
@@ -25,6 +26,7 @@ Analytics, auth, redesign.
 
 - **Branch:** `wo/004-footer`
 - **Risk tier:** P2
+- **Services:** demo
 - **PR title:** `feat(demo): WO-004 — site footer`
 - **Pre-PR gate:** `make ci-local`
 - **Depends on:** WO-003

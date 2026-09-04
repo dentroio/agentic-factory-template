@@ -3,6 +3,7 @@
 **Status:** Open
 **Priority:** P2
 **Effort:** S
+**Services:** demo
 
 ## Problem
 
@@ -26,6 +27,7 @@ Restyling the page. Adding authentication.
 
 - **Branch:** `wo/001-change-greeting`
 - **Risk tier:** P2
+- **Services:** demo
 - **PR title:** `feat(demo): WO-001 — change greeting to Hello, Work Orders`
 - **Pre-PR gate:** `make ci-local`
 - **Depends on:** none

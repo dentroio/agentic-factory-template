@@ -3,6 +3,7 @@
 **Status:** Open
 **Priority:** P2
 **Effort:** S
+**Services:** demo
 
 ## Problem
 
@@ -27,6 +28,7 @@ Authentication, CSS frameworks, changing the home greeting (that is WO-001).
 
 - **Branch:** `wo/003-about-page`
 - **Risk tier:** P2
+- **Services:** demo
 - **PR title:** `feat(demo): WO-003 — add About page`
 - **Pre-PR gate:** `make ci-local`
 - **Depends on:** none
