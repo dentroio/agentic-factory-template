@@ -111,7 +111,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `docs(wo): WO-${woNum.padStart(3, '0')} — ${issueTitle}`,
-              body: `## WO Spec Draft\n\nAuto-drafted from issue #${issueNumber}.\n\n**Review checklist before merging:**\n- [ ] Risk tier is correct (P0/P1 → human merge, P2 → auto-merge, P3 → PR with auto-merge)\n- [ ] Acceptance criteria are verifiable (not vague)\n- [ ] Branch name and PR title in \`## Execution\` section are correct\n- [ ] Files to touch list is accurate\n\nOnce merged, an agent can pick this up by reading the \`## Execution\` section.\n\nCloses #${issueNumber}`,
+              body: `## WO Spec Draft\n\nAuto-drafted from issue #${issueNumber}.\n\n**Review checklist before merging:**\n- [ ] Risk tier is correct (P0/P1 → human merge, P2 → human verifies running product before commit then auto-merge, P3 → docs-only PR)\n- [ ] Canonical fields are present: Priority, Effort, Services, dependencies, Problem, What to Build, Acceptance Criteria, Execution\n- [ ] Acceptance criteria are verifiable (not vague)\n- [ ] Branch name, Services, PR title, and user verification in \`## Execution\` are correct\n- [ ] Files to touch list is accurate\n\nOnce merged, an agent can pick this up by reading the \`## Execution\` section.\n\nCloses #${issueNumber}`,
               head: branch,
               base: 'main',
             });

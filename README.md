@@ -8,7 +8,6 @@
 | [PROCESS.md](PROCESS.md) / `AGENT_PROCESS.md` | How agents claim, verify, and open PRs |
 | [factory.yaml](factory.yaml) | Verify command, UI URL, patterns — read by the engine |
 | [BYO.md](BYO.md) | Replacing `demo/` with a real app |
-| Essays | [docs/blog](docs/blog/README.md) |
 
 Engine walkthrough: [Getting Started](https://github.com/dentroio/agentic-factory/blob/main/docs/wiki/Getting-Started.md) · [Product Profile](https://github.com/dentroio/agentic-factory/blob/main/docs/wiki/Product-Profile.md)
 
